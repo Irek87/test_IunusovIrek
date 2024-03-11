@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let randomNumberOfRows = Int.random(in: 100...10000)
+    let randomNumberOfRows = Int.random(in: 100...1000)
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State var matrix: [[Int]] = .init()
 
@@ -38,7 +38,7 @@ struct ContentView: View {
     private func fillInMatrix() {
         (0...randomNumberOfRows).forEach { row in
             matrix.append([Int]())
-            (0...Int.random(in: 1...4)).forEach { column in
+            (0...Int.random(in: 10...100)).forEach { column in
                 matrix[row].append(Int.random(in: 0...100))
             }
         }
