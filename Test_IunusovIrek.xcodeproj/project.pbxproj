@@ -11,6 +11,7 @@
 		9895E75A2B9FA3F400321E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895E7592B9FA3F400321E49 /* ContentView.swift */; };
 		9895E75C2B9FA3F600321E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9895E75B2B9FA3F600321E49 /* Assets.xcassets */; };
 		9895E75F2B9FA3F600321E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9895E75E2B9FA3F600321E49 /* Preview Assets.xcassets */; };
+		9895E7662B9FA44500321E49 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895E7652B9FA44500321E49 /* CustomButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9895E7592B9FA3F400321E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9895E75B2B9FA3F600321E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9895E75E2B9FA3F600321E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9895E7652B9FA44500321E49 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9895E7572B9FA3F400321E49 /* Test_IunusovIrekApp.swift */,
 				9895E7592B9FA3F400321E49 /* ContentView.swift */,
+				9895E7652B9FA44500321E49 /* CustomButtonStyle.swift */,
 				9895E75B2B9FA3F600321E49 /* Assets.xcassets */,
 				9895E75D2B9FA3F600321E49 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9895E7662B9FA44500321E49 /* CustomButtonStyle.swift in Sources */,
 				9895E75A2B9FA3F400321E49 /* ContentView.swift in Sources */,
 				9895E7582B9FA3F400321E49 /* Test_IunusovIrekApp.swift in Sources */,
 			);
